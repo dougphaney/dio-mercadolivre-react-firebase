@@ -11,11 +11,11 @@ export default function Home({navigation }) {
             <Button 
                 style = "outline" 
                 onPress = { () => navigation.navigate('Login') }>
-                    <Text>ENTRAR</Text>
+                    <Text>LogIn</Text>
             </Button>
             <Button 
                 onPress = { () => navigation.navigate('Signup') }>
-                    <Text style = { styles.text_white }>CRIAR CONTA</Text>
+                    <Text style = { styles.text_white }>Register</Text>
             </Button>
         </View >
     );
